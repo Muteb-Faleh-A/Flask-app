@@ -1,4 +1,5 @@
 
+http://18.222.4.38/
 
 Ud-FSND-LinuxServerConfiguration
 Udacity Full Stack Web Developer Nanodegree Project : Linux Server Configuration
@@ -76,7 +77,7 @@ configure Apache to handle requests using the WSGI module
 cd /etc/apache2/sites-enabled
 sudo cp 000-default.conf catalog.conf
 sudo nano catalog.conf
-# 18.216.240.252
+# http://18.222.4.38/
 <VirtualHost *:80>
         # The ServerName directive sets the request scheme, hostname and port that
         # the server uses to identify itself. This is used when creating
