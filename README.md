@@ -1,21 +1,4 @@
-A Modern web applications perform a variety of functions and provide amazing features and utilities to their users, 
-to creating, reading, updating and deleting data. this project is building dynamic websites with persistent data storage
- to create a web application that provides a compelling service to users.
- 
- Install Vagrant and VirtualBox
-Launch the Vagrant VM (vagrant up) and vagrant ssh
 
-
-1. Navigate to Project directory inside the vagrant environment
-Run the application within the VM (/vagrant/project/ python shopproject.py)
-
-2. run python database_setup.py to create the database
-
-3. run python shopitems.py to populate the database
-
-4. run python shopproject.py
-
-Access and test your application by visiting http://localhost:5000 in your browser
 
 Ud-FSND-LinuxServerConfiguration
 Udacity Full Stack Web Developer Nanodegree Project : Linux Server Configuration
@@ -23,11 +6,8 @@ Udacity Full Stack Web Developer Nanodegree Project : Linux Server Configuration
 Project Description
 Project Specification
 IP address and SSH port
-Public IP : 18.216.240.252
+Public IP : http://18.222.4.38/
 SSH port : 2200
-Complete URL to hosted web application
-http://ec2-18-216-240-252.us-east-2.compute.amazonaws.com/
-
 Summary of software installed and configuration changes made
 Update all currently installed packages
 One of the most important and simplest ways to ensure your system is secure is to keep your software up to date with new releases
@@ -88,7 +68,7 @@ sudo apt install git # Install git
 sudo mkdir /var/www/catalog # create catalog folder
 sudo chown -R grader:grader catalog
 cd /var/www/catalog
-sudo git clone https://github.com/bcko/Ud-FSND-ItemCatalogApp-PythonFlask.git
+sudo git clone https://github.com/Muteb-Faleh-A/Flask-app.git
 create .wsgi file
 nano project.wsgi
 # from project import app as application
