@@ -1,5 +1,5 @@
 
-http://18.222.4.38/
+http://18.222.4.38.xip.io/
 
 Ud-FSND-LinuxServerConfiguration
 Udacity Full Stack Web Developer Nanodegree Project : Linux Server Configuration
